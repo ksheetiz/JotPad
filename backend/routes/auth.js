@@ -105,8 +105,8 @@ router.post(
       const transporter = nodemailer.createTransport({
         service: "hotmail",
         auth: {
-          user: "testccounteauth@outlook.com",
-          pass: "test69account@miniproject",
+          user: //Put Login id here,
+          pass: //Put Password Here,
         },
       });
 
